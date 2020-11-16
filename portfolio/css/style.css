@@ -1,0 +1,521 @@
+@font-face {
+    font-family: 'font1';
+    src: url('../font/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'font1_bold';
+    src: url('../font/Montserrat/Montserrat-Bold.ttf');
+}
+html body {
+    background-color:#212121;
+}
+
+nav {
+  background-color: #2E2E2E;
+}
+
+.navbar-nav{
+   margin-right: auto;
+    margin-left: auto;
+}
+.nav-link:hover{
+    color:#ff8800
+}
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+    margin-left:3em;
+    margin-right: 3em;
+    border-radius: 10px;
+    font-family: font1;
+}
+
+@media screen and (max-width: 992px) {
+    .titre1{
+    color:#ff8800;
+    text-align: center;
+    font-size: 2em;
+    font-family: font1_bold;
+    }
+    .titre2{
+    color:#ff8800;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    font-family: font1;
+    }
+    .titre3{
+    color:#ffffff;
+    text-align: left;
+    font-size: 2em;
+    font-family: font1_bold;
+    margin-left: 0.5em;
+    }
+    .titre4{
+    color:#ff8800;
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    font-family: font1;
+    margin-top: 1em;
+    }
+    .overlay-image .text {
+    line-height: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width: 100%;
+    }
+    .overlay-image .text2 {
+    line-height: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    }
+    .photoid{
+    height: 203px;
+    width: 228px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    }
+    .txtB{
+    margin-top:1em;
+    margin-bottom:1em;
+    text-align:justify;
+    font-family: font1_bold;
+    font-size: 2em;
+    text-align: center;  
+    }
+    .lienCentre{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    }
+    .margeContact{
+        margin-top:1.5em;
+    }
+    .lienContact{
+  display: block;
+  height: 1em;
+  margin-top: -1em;
+  visibility: hidden;
+}
+    .Experience{
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 4em;
+}
+}
+@media screen and (min-width: 992px) {
+    .titre1{
+    color:#ff8800;
+    text-align: center;
+    font-size: 4em;
+    font-family: font1_bold;
+    }
+    .titre2{
+    color:#ff8800;
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+    font-family: font1;
+    margin-top: 1em
+    }
+    .titre3{
+    color:#ffffff;
+    text-align:left;
+    font-size: 4em;
+    font-family: font1_bold;
+    margin-left: 0.5em;
+    }
+    .titre4{
+    color:#ff8800;
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+    font-family: font1;
+    margin-top: 1em
+    }
+    .overlay-image .text {
+    line-height: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    width: 100%;
+    }
+    .overlay-image .text2 {
+    line-height: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    }
+    .photoid{
+    height: 203px;
+    width: 228px;
+    margin-top: 6em; 
+    }
+    .txtB{
+    text-align:justify;
+    font-family: font1_bold;
+    font-size: 2em;
+    text-align: center;
+    }
+    .texteB3{
+    margin-top:3.15em;  
+    }
+    .texteB4{
+    margin-top:3.8em;  
+    }
+    .texteB7{
+    margin-top:4.6em; 
+    }
+    .texteB9{
+    margin-top:3.8em; 
+    }
+    .texteB2{
+    margin-top:3.1em; 
+    }
+    .texteB8{
+    margin-top:3.1em; 
+    }
+    .texteB6{
+    margin-top:2.5em; 
+    }
+    .texteB1{
+    margin-top:5.2em; 
+    }
+    .lienCentre{
+    margin-top: 4.5em;
+}
+    .lienContact{
+  display: block;
+  height: 5em;
+  margin-top: -5em;
+  visibility: hidden;
+}
+    .Experience{
+    margin:4em;
+}
+    .button{
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+    .textDeroule{
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+}
+
+.Tblack{
+    color:#212121;
+}
+.Competence{
+    padding-top: 1em;
+    text-align:justify;
+    font-family: font1;
+    font-size: 1.5em;
+    color: #ffffff
+}
+.infoComp{
+    font-size:0.8em;
+    margin-bottom: 0em;
+    color: #ffffff80;
+}
+.link{
+    font-family: font1_bold;
+    font-weight: 600;
+    color: #ffffff;
+    font-family:sans-serif;
+}
+.link:hover{
+    text-decoration: none;
+    color: #ff8800;
+}
+
+.overlay-image {
+ position: relative;
+ width: 100%;
+}
+.overlay-image .image {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+
+.topcv{
+    margin-top: 6em;
+}
+.cv{
+    width:387px;
+    height:548px;
+    border-radius: 10px;
+    filter: brightness(85%);
+    transition: all 0.3s;
+    margin: 0em;
+}
+.cv:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    filter: none;
+}
+
+
+.logoPhone{
+	width: 41px;
+	height: 64px;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.logoMail{
+	width: 61px;
+	height: 49px;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.logoCarre{
+	width: 50px;
+	height: 50px;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.texteCont{
+    color: #ffffff;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    padding-top: 3em;
+    text-align:justify;
+    font-family: font1;
+}
+
+.lienCompetence{
+    display: block;
+    height: 2em;
+    margin-top: -2em;
+    visibility: hidden;
+}
+.lienProjet{
+    display: block;
+    height: 3.5em;
+    margin-top: -3.5em;
+    visibility: hidden; 
+}
+.lienCv{
+  display: block;
+  height: 5em;
+  margin-top: -5em;
+  visibility: hidden;
+}
+.lienBox{
+  display: block;
+  height: 3em;
+  margin-top: -3em;
+  visibility: hidden;
+}
+.lienExperience{
+    display: block;
+  height: 2em;
+  margin-top: -2em;
+  visibility: hidden;
+}
+.button {
+    cursor: pointer;
+    transition: all 0.45s;
+    display: inline-block;
+}
+.button:hover {
+    font-size:1.2em;
+}
+.titreDeroule{
+    margin: 0em;
+    font-size: 1.8em;
+    font-family: font1;
+    color: #ffffff;
+}
+.infoDeroule{
+    margin: 0em;
+    font-size: 0.8em;
+    font-family: font1;
+    color: #ffffff80;
+    text-align: left;
+}
+.textDeroule{
+    color:#ffffff;
+    font-family: font1;
+    font-size:1em;
+    padding-top:1em;
+}
+.lieu{
+    color:#ff8800;
+}
+.elemExperience{
+    margin-top:1.5em;
+}
+
+.titreProjet{
+    margin: 0em;
+    font-size: 1.6em;
+    font-family: font1;
+    color: #ff8800;
+}
+.infoProjet{
+    font-size: 1em;
+    color: #ffffff;
+}
+.projet{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.buttonProjet {
+    cursor: pointer;
+    transition: all 0.45s;
+    display: inline-block;
+}
+.buttonProjet:hover {
+    font-size:1.2em;
+}
+.titreDerouleProjet{
+    margin: 0em;
+    font-size: 1.4em;
+    font-family: font1;
+    color: #ffffff;
+}
+.textDerouleProjet{
+    padding-top: 0.5em;   
+    color:#ffffff;
+    font-family: font1;
+    font-size:1em;
+}
+.imageLaborator{
+    height:237px;
+    width:422px;
+    
+}
+
+.main-timeline{
+    font-family: 'Asap', sans-serif;
+    position: relative;
+    padding: 50px 0 0;
+}
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: 60%;
+    min-height: 130px;
+    padding: 65px 0 0 37px;
+    margin: -50px 0 0;
+    float: left;
+    position: relative;
+}
+.main-timeline .timeline-icon{
+    color: #ff8800;
+    background-color: #2e2e2e;
+    font-size: 80px;
+    text-align: center;
+    line-height: 135px;
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+.main-timeline .timeline-icon:before{
+    content: '';
+    background-color: #212121;
+    height: 85%;
+    width: 85%;
+    box-shadow: 0 0 10px #000 inset;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+    -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+}
+.main-timeline .inner-content{
+    background-color: #2e2e2e;
+    padding: 10px 40px 10px 140px;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+}
+.main-timeline .title{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 3px;
+}
+.main-timeline .description{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.main-timeline .timeline:nth-child(even){
+    float: right;
+    padding: 65px 37px 0 0;
+}
+.main-timeline .timeline:nth-child(even) .timeline-icon{
+    left: auto;
+    right: 0;
+}
+.main-timeline .timeline:nth-child(even) .inner-content{
+    padding: 10px 120px 10px 55px;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 5% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 5% 100%);
+}
+
+@media only screen and (max-width:767px){
+    .main-timeline{ padding: 0; }
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        padding: 40px 0 0 25px;
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .main-timeline .timeline-icon{
+        height: 90px;
+        width: 100px;
+        line-height: 95px;
+        font-size: 50px;
+        left: 0;
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-icon{
+        right: auto;
+        left: 0;
+    }
+    .main-timeline .inner-content{ padding: 10px 25px 10px 80px; }
+    .main-timeline .timeline:nth-child(even) .inner-content{
+        padding: 10px 25px 10px 80px;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+    }
+}
+@media only screen and (max-width:576px){
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        padding-left: 0;
+    }
+    .main-timeline .timeline-icon,
+    .main-timeline .timeline:nth-child(even) .timeline-icon{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .main-timeline .inner-content,
+    .main-timeline .timeline:nth-child(even) .inner-content{
+        text-align: center;
+        padding: 60px 45px 20px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    }
+}
+
+

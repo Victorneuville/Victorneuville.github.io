@@ -517,5 +517,15 @@ nav {
         clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
     }
 }
-
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+.basDePage{
+    text-align: center;
+    
+}
 

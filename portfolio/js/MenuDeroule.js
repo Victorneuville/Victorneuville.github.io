@@ -9,6 +9,7 @@ $(document).ready(function(){
     $("#text8").hide();
     $("#text9").hide();
     $("#text10").hide();
+    $("#text11").hide();
     
     $("#b1").click(function(){
         $("#text1").toggle(500, function(){
@@ -52,6 +53,10 @@ $(document).ready(function(){
     });
     $("#b10").click(function(){
         $("#text10").toggle(400, function(){
+        });
+    });
+    $("#b11").click(function(){
+        $("#text11").toggle(400, function(){
         });
     });
 });

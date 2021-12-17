@@ -1,0 +1,16 @@
+#img-project1{
+    background-image: url(../../img/projets/book-competence/arbre.png);
+    background-size: cover;
+}
+#img-project2{
+    background-image: url(../../img/projets/book-competence/charte-graphique.png);
+    background-size: cover;
+}
+#img-project3{
+    background-image: url(../../img/projets/book-competence/mes-projet.png);
+    background-size: cover;
+}
+#img-project4{
+    background-image: url(../../img/projets/book-competence/projet-et-competence.png);
+    background-size: cover;
+}

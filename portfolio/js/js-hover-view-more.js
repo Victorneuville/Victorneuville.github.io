@@ -1,5 +1,6 @@
 $(document).ready(function(){
-         
+      
+    var bool0 = 1;
     var bool1 = 1;
     var bool2 = 1;
     var bool3 = 1;
@@ -7,6 +8,18 @@ $(document).ready(function(){
     var bool5 = 1;
     var bool6 = 1;
     var bool7 = 1;
+    
+    $('#experience0').on('mouseenter', function() {
+        if(bool0){
+            bool0 = 0;
+            $('#view-more0').addClass('animate-link');
+        }
+    });
+    $('#view-more0').on('animationend',function(){
+        $(this).removeClass('animate-link');
+            bool0 = 1;
+    });
+    
     
     $('#experience1').on('mouseenter', function() {
         if(bool1){

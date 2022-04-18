@@ -376,12 +376,6 @@ a {
         transform: translate(-50%,6vh);
     }
 }
-.mouse-scroll{
-    position: absolute;
-    bottom: 3.5vh;
-    left: 50%;
-    transform: translateX(-50%);
-}
 .scroll-wheel{
     position: relative;
     width: 5vh;
@@ -429,7 +423,6 @@ a {
     font-family: Labeur-light-header;
 }
 .link-header{
-    font-size: clamp(0.8em, 1.2vw, 6.6em);
     font-family: titre-bold !important;
 }
 .link-header:hover{
@@ -470,6 +463,12 @@ a {
     margin-bottom: 2px;
 }
 @media screen and (min-width: 900px){
+    .mouse-scroll{
+        position: absolute;
+        bottom: 3.5vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .container-logo-title{
         width: 100%;
         display: flex;
@@ -515,6 +514,12 @@ a {
     }
 }
 @media screen and (max-width: 900px) and (min-width: 690px){
+    .mouse-scroll{
+        position: absolute;
+        bottom: 3.5vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .container-logo-title{
         width: 100%;
         margin-top: 10px;
@@ -560,6 +565,9 @@ a {
 }
     
 @media screen and (max-width: 690px){
+    .mouse-scroll{
+        display: none;
+    }
     .container-logo-title{
         width: 100%;
         margin-top: 2px;
@@ -865,7 +873,7 @@ a {
 }
 
 #img-project1{
-    background-image: url(../img/projets/azenbourg/carte-expo.png);
+    background-image: url(../img/projets/ux-ui/exemples-maquette.png);
     background-size: cover;
 }
 #img-project2{
@@ -873,7 +881,7 @@ a {
     background-size: cover;
 }
 #img-project3{
-    background-image: url(../img/projets/laborator/firepunch.png);
+    background-image: url(../img/projets/star-hunt/logo-star-hunt.png);
     background-size: cover;
 }
 #img-project4{
@@ -930,6 +938,9 @@ a {
         padding-left: 1vw;
         padding-bottom: 1vw;
     }
+    .scale{
+        transform: scale(1.1);
+    }
 
 }
 @media screen and (max-width: 900px) and (min-width: 690px){
@@ -977,6 +988,9 @@ a {
     .title-project-to-large{
         width: 77.5%;
     }
+    .scale{
+        transform: scale(1);
+    }
 }
 @media screen and (max-width: 690px){
     
@@ -1013,13 +1027,13 @@ a {
         padding-left: 3vw;
         padding-bottom: 3vw;
     }
+    .scale{
+        transform: scale(1);
+    }
 }
 
 .opacity{
     opacity:1;
-}
-.scale{
-    transform: scale(1.1);
 }
 
     /********** container-experience **********/
@@ -1164,10 +1178,6 @@ a {
     margin-top: clamp(50px, 5%, 250px);
     background-image: linear-gradient(to bottom, #EAE1DA 1%, #D2C0B1 80%)
 }
-.cv:hover{
-    transform: scale(1.1);
-    filter: brightness(100%) drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.25));
-}
 .link-contact{
     display: flex;
     align-content: center;
@@ -1245,6 +1255,10 @@ a {
         align-items: center;
         margin-top: clamp(2.4em, 3.6vw, 20.2em);
         margin-bottom: clamp(2.4em, 3.6vw, 20.2em);
+    }
+    .cv:hover{
+        transform: scale(1.1);
+        filter: brightness(100%) drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.25));
     }
 }
 @media screen and (max-width: 900px) and (min-width: 690px){

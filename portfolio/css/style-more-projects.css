@@ -209,6 +209,14 @@ a {
     background-image: url(../img/projets/book-competence/book-hp.png);
     background-size: cover;
 }
+#img-project11{
+    background-image: url(../img/projets/ux-ui/exemples-maquette.png);
+    background-size: cover;
+}
+#img-project12{
+    background-image: url(../img/projets/star-hunt/logo-star-hunt.png);
+    background-size: cover;
+}
 
 
 @media screen and (min-width: 900px){

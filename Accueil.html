@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | Victor Neuville</title>
+    <link rel="icon" href="img/logo-clair.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+    
+<body>
+    <header>
+        <div class="header" id="header">
+<!-- navbar -->
+                <div class="menu-button">
+                        <i class="material-icons material-header" onclick="open_modal('modal-sidebar');">menu</i>
+                </div>
+                <div class="navbar">
+                    <div class="container-circle-nav">
+                        <div class="box-wrap">
+                            <div class="box-rorate" id="circle-nav-1-1"></div>
+                            <div class="box-rorate" id="circle-nav-1-2"></div>
+                            <div class="box-rorate" id="circle-nav-1-3"></div>
+                            <div class="box-rorate" id="circle-nav-1-4"></div>
+                            <div class="box"></div>
+                        </div>
+                        <a href="#skills" class="text-nav js-scrollTo" id="text-nav-1">Mes compétences</a>
+                    </div>
+                    <div class="container-circle-nav">
+                        <div class="box-wrap">
+                            <div class="box-rorate" id="circle-nav-2-1"></div>
+                            <div class="box-rorate" id="circle-nav-2-2" ></div>
+                            <div class="box-rorate" id="circle-nav-2-3"></div>
+                            <div class="box-rorate" id="circle-nav-2-4" ></div>
+                            <div class="box"></div>
+                        </div>
+                        <a href="#projects" class="text-nav js-scrollTo" id="text-nav-2">Mes projets</a>
+                    </div>
+                    <div class="container-circle-nav">
+                        <div class="box-wrap">
+                            <div class="box-rorate" id="circle-nav-3-1"></div>
+                            <div class="box-rorate" id="circle-nav-3-2"></div>
+                            <div class="box-rorate" id="circle-nav-3-3"></div>
+                            <div class="box-rorate" id="circle-nav-3-4"></div>
+                            <div class="box"></div>
+                        </div>
+                        <a href="#experiences" class="text-nav js-scrollTo" id="text-nav-3">Mes expériences</a>
+                    </div>
+                    <div class="container-circle-nav">
+                        <div class="box-wrap">
+                            <div class="box-rorate" id="circle-nav-4-1"></div>
+                            <div class="box-rorate" id="circle-nav-4-2"></div>
+                            <div class="box-rorate" id="circle-nav-4-3"></div>
+                            <div class="box-rorate" id="circle-nav-4-4"></div>
+                            <div class="box"></div>
+                        </div>
+                        <a href="#contact" class="text-nav js-scrollTo" id="text-nav-4">Me contacter</a>
+                    </div>
+                </div>
+<!-- sidebar -->
+                <div class="modal-sidebar" id="modal-sidebar">
+                    <div class="side-menu">
+                        <div class="logo-close-modal">
+                            <a href="Accueil.html"><img class="logo-sidebar" src="img/logo-sombre.png" alt="logo-sidebar"></a>
+                            <i class="material-icons material-header" onclick="close_modal();">close</i>
+                        </div>
+                        <ul class="side-link">
+                            <li class="side-elem-link">
+                                <div class="container-circle-nav">
+                                    <div class="box-wrap">
+                                        <div class="box"></div>
+                                    </div>
+                                        <a onclick="close_modal();" href="#skills" class="text-nav js-scrollTo">Mes compétences</a>
+                                </div>
+                            </li>
+                            <li class="side-elem-link">
+                                <div class="container-circle-nav">
+                                    <div class="box-wrap">
+                                        <div class="box"></div>
+                                    </div>
+                                        <a onclick="close_modal();" href="#projects" class="text-nav js-scrollTo">Mes projets</a>
+                                </div>
+                            </li>
+                            <li class="side-elem-link">
+                                <div class="container-circle-nav">
+                                    <div class="box-wrap">
+                                        <div class="box"></div>
+                                    </div>
+                                        <a onclick="close_modal();" href="#experiences" class="text-nav js-scrollTo">Mes expériences</a>
+                                </div>
+                            </li>
+                            <li class="side-elem-link">
+                                <div class="container-circle-nav">
+                                    <div class="box-wrap">
+                                        <div class="box"></div>
+                                    </div>
+                                        <a onclick="close_modal();" href="#contact" class="text-nav js-scrollTo">Me contacter</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+<!-- storytelling -->
+            <div class="top-header">
+                <div class="flex-header">
+                    <div class="info-header">
+                        <div class="container-text-header">
+                            <div class="container-logo-title" data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
+                                <img class="logo-header" src="img/logo-sombre.png" alt="logo">
+                                <h1 class="title-header">VICTOR NEUVILLE</h1>
+                            </div>
+                            <div data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
+                                <p class="text-header">Actuellement étudiant en <span class="labeur-bold">stratégie digitale</span>, ce que j’apprends m’intéresse grandement et plus particulièrement le <span class="labeur-bold">graphisme</span> et le <span class="labeur-bold">webdesign</span> UX/UI. Ayant un <span class="labeur-bold">DUT informatique</span>, je connais le système de développement et je sais comment créer des « maquettes web » réalisables par l’équipe de développement. Mon projet est de trouver une alternance dans un de ces domaines. Surtout passionné par les <span class="labeur-bold">jeux de plateaux</span> mais aussi par les <span class="labeur-bold">jeux vidéo</span>, vous trouverez dans ce portfolio quelques-unes de mes réalisations liées à ces domaines. Je suis <span class="labeur-bold">créatif</span>, <span class="labeur-bold">à l’écoute</span>, <span class="labeur-bold">soucieux du détail </span>et <span class="labeur-bold">investis dans mes projets.</span></p>
+
+                                <p class="text-header-bottom">Si mon profil vous intéresse, je vous invite à <a class="link-header js-scrollTo" href="#contact">Me contacter.</a></p>
+                            </div>
+                        </div>
+                        <div class="circle-img" data-aos="zoom-out" data-aos-duration="600" data-aos-delay="200"></div>
+                    </div>
+                    <div class="info-header-phone">
+                        <div class="container-img-title-header-phone">
+                            <div class="circle-img" data-aos="zoom-out" data-aos-duration="600" data-aos-delay="200"></div>
+                            <div class="container-logo-title" data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
+                                <img class="logo-header" src="img/logo-sombre.png" alt="logo">
+                                <h1 class="title-header">VICTOR NEUVILLE</h1>
+                            </div>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
+                            <p class="text-header">Actuellement étudiant en <span class="labeur-bold">stratégie digitale</span>, ce que j’apprends m’intéresse grandement et plus particulièrement le <span class="labeur-bold">graphisme</span> et le <span class="labeur-bold">webdesign</span> UX/UI. Ayant un <span class="labeur-bold">DUT informatique</span>, je connais le système de développement et je sais comment créer des « maquettes web » réalisables par l’équipe de développement. Mon projet est de trouver une alternance dans un de ces domaines. Surtout passionné par les <span class="labeur-bold">jeux de plateaux</span> mais aussi par les <span class="labeur-bold">jeux vidéo</span>, vous trouverez dans ce portfolio quelques-unes de mes réalisations liées à ces domaines. Je suis <span class="labeur-bold">créatif</span>, <span class="labeur-bold">à l’écoute</span>, <span class="labeur-bold">soucieux du détail </span>et <span class="labeur-bold">investis dans mes projets.</span></p>
+
+                            <p class="text-header-bottom">Si mon profil vous intéresse, je vous invite à <a class="link-header js-scrollTo" href="#contact">Me contacter.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="bottom-header">
+
+                <svg style="transform:rotate(180deg);transition:.3s" viewBox="0 0 1440 180" xmlns="http://www.w3.org/2000/svg">
+                    
+                    <defs>
+                        <linearGradient id="a" x1="0" x2="0" y1="1" y2="0"></linearGradient>
+                    </defs>
+                    <path style="transform:translate(0,0)" fill="#1D1916" d="m0 36 48-6c48-6 144-18 240 3s192 75 288 87 192-18 288-36 192-24 288-9 192 51 288 48 192-45 288-57 192 6 288 24 192 36 288 39 192-9 288-6 192 21 288 15 192-36 288-45 192 3 288 15 192 24 288 15 192-39 288-60 192-33 288-24 192 39 288 39 192-30 288-33 192 21 288 27 192-6 288-21 192-33 288-30 192 27 288 39 192 12 288 15 192 9 288 18 192 21 240 27l48 6v54H0Z"/>
+                    
+                    <defs>
+                        <linearGradient id="b" x1="0" x2="0" y1="1" y2="0"></linearGradient>
+                    </defs>
+                    <path style="transform:translate(0,50px)" fill="#37312C" d="m0 90 48-9c48-9 144-27 240-42S480 12 576 9s192 3 288 30 192 75 288 81 192-30 288-54 192-36 288-18 192 66 288 66 192-48 288-69 192-15 288 3 192 48 288 45 192-39 288-48 192 9 288 9 192-18 288-30 192-18 288 6 192 78 288 84 192-36 288-39 192 33 288 36 192-27 288-39 192-6 288 12 192 48 288 36 192-66 288-84 192 0 288 21 192 45 288 45 192-24 240-36l48-12v126H0Z"/>
+
+                </svg>
+
+            </div>
+
+            <div id="vanish-mouse">
+                <div class="mouse-scroll">
+                    <div class="scroll-wheel"> </div>
+                </div>
+            </div>  
+        </div> 
+    </header>
+    
+    <div class="container-skill" id="skills">
+        <div class="container-title" data-aos="fade-right" data-aos-duration="600" data-aos-delay="50">
+            <div class="circle-title"></div>
+            <h2 class="title-niv2">Mes compétences</h2>
+        </div>
+        <div class="flex-skill">
+            
+            <div class="column-skill"  data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
+                
+                <div class="container-main-skill">
+                    <div class="main-skill" id="skill1">
+                        <div class="title-main">
+                            <span class="material-icons material-skill">palette</span>
+                            <h3 class="title-niv3">Créer une identité visuelle</h3>
+                        </div>
+                        <svg class="arrow-progress" id="arrow-skill1" transform="rotate(-90)" fill="none"  viewBox="0 10 28 19" xmlns="http://www.w3.org/2000/svg">
+                            <path transform="scale(.97917 1.0204) rotate(45 -16.595 7.254)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                            <path transform="scale(.97917 1.0204) rotate(-45 40.523 -3.194)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="skill-niv2" id="niv2-skill1">
+                        <div>
+                            <h2 class="title-niv4-bold">Figma</h2>
+                            <h2 class="title-niv4-bold">Adobre XD</h2>
+                            <h2 class="title-niv4">Illustrator</h2>
+                            <h2 class="title-niv4">After effect</h2>
+                        </div>
+                        <span class="vertical"></span>
+                        <div>
+                            <h2 class="title-niv4">InDesign</h2>
+                            <h2 class="title-niv4">Photoshop</h2>
+                            <h2 class="title-niv4">Balsamiq</h2>
+                            <h2 class="title-niv4">Canvas</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                
+                <div class="container-main-skill" >
+                    <div class="main-skill" id="skill2">
+                        <div class="title-main">
+                            <span class="material-icons material-skill">integration_instructions</span>
+                            <h3 class="title-niv3">Réalisation Web</h3>
+                        </div>
+                        <svg class="arrow-progress" id="arrow-skill2" transform="rotate(0)" fill="none"  viewBox="0 10 28 19" xmlns="http://www.w3.org/2000/svg">
+                            <path transform="scale(.97917 1.0204) rotate(45 -16.595 7.254)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                            <path transform="scale(.97917 1.0204) rotate(-45 40.523 -3.194)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="skill-niv2" id="niv2-skill2" style="display: none;">
+                        <div>
+                            <h2 class="title-niv4">Html5/css3</h2>
+                            <h2 class="title-niv4">JavaScript</h2>
+                            <h2 class="title-niv4">Php</h2>
+                        </div>
+                        <span class="vertical"></span>
+                        <div>
+                            <h2 class="title-niv4">Worpress</h2>
+                            <h2 class="title-niv4">Bootstrap</h2>
+                            <h2 class="title-niv4">MySQL/PosgreSQL</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+                <div class="container-main-skill">
+                    <div class="main-skill" id="skill3">
+                        <div class="title-main">
+                            <span class="material-icons material-skill">playlist_add_check</span>
+                            <h3 class="title-niv3">Gestion de projets</h3>
+                        </div>
+                        <svg class="arrow-progress" id="arrow-skill3" transform="rotate(-90)" fill="none"  viewBox="0 10 28 19" xmlns="http://www.w3.org/2000/svg">
+                            <path transform="scale(.97917 1.0204) rotate(45 -16.595 7.254)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                            <path transform="scale(.97917 1.0204) rotate(-45 40.523 -3.194)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="skill-niv2" id="niv2-skill3" style="display: none;">
+                        <div>
+                            <h2 class="title-niv4">Trello</h2>
+                            <h2 class="title-niv4">Excel</h2>
+                            <h2 class="title-niv4">Gantt</h2>
+                        </div>
+                        <span class="vertical"></span>
+                        <div>
+                            <h2 class="title-niv4">Doodle</h2>
+                            <h2 class="title-niv4">Méthode agile</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="container-main-skill">
+                    <div class="main-skill" id="skill4">
+                        <div class="title-main">
+                            <span class="material-icons material-skill">alternate_email</span>
+                            <h3 class="title-niv3">Etablir une stratégie de communication</h3>
+                        </div>
+                        <svg class="arrow-progress" id="arrow-skill4" transform="rotate(-90)" fill="none" viewBox="0 10 28 19" xmlns="http://www.w3.org/2000/svg">
+                            <path transform="scale(.97917 1.0204) rotate(45 -16.595 7.254)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                            <path transform="scale(.97917 1.0204) rotate(-45 40.523 -3.194)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="skill-niv2" id="niv2-skill4" style="display: none;">
+                        <div>
+                            <h2 class="title-niv4">Réseaux sociaux</h2>
+                            <h2 class="title-niv4">Marketing</h2>
+                        </div>
+                        <!--
+                        <span class="vertical"></span>
+                        <div>
+                            <h2 class="title-niv4"></h2>
+                            <h2 class="title-niv4"></h2>
+                            <h2 class="title-niv4"></h2>
+                        </div>
+                        -->
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="column-skill"  data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+                
+                <div class="container-main-skill">
+                    <div class="main-skill" id="skill5">
+                        <div class="title-main">
+                            <span class="material-icons material-skill">person_search</span>
+                            <h3 class="title-niv3">UX research</h3>
+                        </div>
+                        <svg class="arrow-progress" id="arrow-skill5" transform="rotate(-90)" fill="none" viewBox="0 10 28 19" xmlns="http://www.w3.org/2000/svg">
+                            <path transform="scale(.97917 1.0204) rotate(45 -16.595 7.254)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                            <path transform="scale(.97917 1.0204) rotate(-45 40.523 -3.194)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="skill-niv2" id="niv2-skill5" style="display: none;">
+                        <div>
+                            <h2 class="title-niv4">Focus group</h2>
+                            <h2 class="title-niv4">Cartographie</h2>
+                            <h2 class="title-niv4">Audit</h2>
+                        </div>
+                        <span class="vertical"></span>
+                        <div>
+                            <h2 class="title-niv4">Étude quantitative</h2>
+                            <h2 class="title-niv4">Étude qualitative</h2>
+                            <h2 class="title-niv4">Test utilisateur</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="container-main-skill">
+                    <div class="main-skill" id="skill6">
+                        <div class="title-main">
+                            <span class="material-icons material-skill">view_in_ar</span>
+                            <h3 class="title-niv3">Créer des models 3D</h3>
+                        </div>
+                        <svg class="arrow-progress" id="arrow-skill6" transform="rotate(-90)" fill="none" viewBox="0 10 28 19" xmlns="http://www.w3.org/2000/svg">
+                            <path transform="scale(.97917 1.0204) rotate(45 -16.595 7.254)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                            <path transform="scale(.97917 1.0204) rotate(-45 40.523 -3.194)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="skill-niv2" id="niv2-skill6" style="display: none;">
+                        <div>
+                            <h2 class="title-niv4">Fusion360</h2>
+                            <h2 class="title-niv4">Blender</h2>
+                            <h2 class="title-niv4">FreeCAD</h2>
+                        </div>
+                        <span class="vertical"></span>
+                        <div>
+                            <h2 class="title-niv4">Spline</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-main-skill">
+                    <div class="main-skill" id="skill7">
+                        <div class="title-main">
+                            <span class="material-icons material-skill">computer</span>
+                            <h3 class="title-niv3">Système d'exploitation</h3>
+                        </div>
+                        <svg class="arrow-progress" id="arrow-skill7" transform="rotate(-90)" fill="none" viewBox="0 10 28 19" xmlns="http://www.w3.org/2000/svg">
+                            <path transform="scale(.97917 1.0204) rotate(45 -16.595 7.254)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                            <path transform="scale(.97917 1.0204) rotate(-45 40.523 -3.194)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="skill-niv2" id="niv2-skill7" style="display: none;">
+                        <div>
+                            <h2 class="title-niv4">Windows</h2>
+                            <h2 class="title-niv4">MacOS</h2>
+                            <h2 class="title-niv4">Linux</h2>
+                        </div>
+                        <!--
+                        <span class="vertical"></span>
+                        <div>
+                            <h2 class="title-niv4"></h2>
+                            <h2 class="title-niv4"></h2>
+                            <h2 class="title-niv4"></h2>
+                        </div>
+                        -->
+                    </div>
+                </div>
+                
+                <div class="container-main-skill">
+                    <div class="main-skill" id="skill8">
+                        <div class="title-main">
+                            <span class="material-icons material-skill">cloud</span>
+                            <h3 class="title-niv3">Travail collaboratif</h3>
+                        </div>
+                        <svg class="arrow-progress" id="arrow-skill8" transform="rotate(-90)" fill="none" viewBox="0 10 28 19" xmlns="http://www.w3.org/2000/svg">
+                            <path transform="scale(.97917 1.0204) rotate(45 -16.595 7.254)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                            <path transform="scale(.97917 1.0204) rotate(-45 40.523 -3.194)" stroke="#006678" stroke-width="3" stroke-linecap="round" d="M1.5-1.5h16.6"/>
+                        </svg>
+
+                    </div>
+
+                    <div class="skill-niv2" id="niv2-skill8" style="display: none;">
+                        <div>
+                            <h2 class="title-niv4">GitHub</h2>
+                            <h2 class="title-niv4">GitLab</h2>
+                            <h2 class="title-niv4">Miro</h2>
+                        </div>
+                        <span class="vertical"></span>
+                        <div>
+                            <h2 class="title-niv4">Figjam</h2>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <div class="column-skill">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="wave-skill">
+        <svg style="transform:rotate(180deg);transition:.3s" viewBox="0 0 1440 180" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="b" x1="0" x2="0" y1="1" y2="0"></linearGradient></defs><path style="transform:translate(0,50px)" fill="#D2C0B1" d="m0 90 48-9c48-9 144-27 240-42S480 12 576 9s192 3 288 30 192 75 288 81 192-30 288-54 192-36 288-18 192 66 288 66 192-48 288-69 192-15 288 3 192 48 288 45 192-39 288-48 192 9 288 9 192-18 288-30 192-18 288 6 192 78 288 84 192-36 288-39 192 33 288 36 192-27 288-39 192-6 288 12 192 48 288 36 192-66 288-84 192 0 288 21 192 45 288 45 192-24 240-36l48-12v126H0Z"/>
+        </svg>
+    </div>
+    
+    <div class="container-title" id="projects" data-aos="fade-right" data-aos-duration="600" data-aos-delay="50">
+        <div class="circle-title"></div>
+        <h2 class="title-niv2">Mes projets</h2>
+    </div>
+    
+    <div class="gradient-project"></div>
+    
+    <div class="container-projects">
+        
+        <div class="line-projects" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+            
+            <a class="link-project" href="projets/ux-ui.html">
+                <div class="project-img-text">
+                    <div class="img-project" id="img-project1"></div>
+                    <div class="container-opacity-text" id="container-opacity-text1">
+                        <div class="opacity-project" id="opacity-project1"></div>
+                        <div class="text-project">
+                            <h3 class="title-project">UX / UI</h3>
+                            <p class="info-project">Mes réalisations Webdesign</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="link-project" href="projets/protocoles-ux.html">
+                <div class="project-img-text">
+                    <div class="img-project" id="img-project14"></div>
+                    <div class="container-opacity-text" id="container-opacity-text14">
+                        <div class="opacity-project" id="opacity-project14"></div>
+                        <div class="text-project">
+                            <h3 class="title-project">Protocole UX</h3>
+                            <p class="info-project">Mes méthodes UX</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="link-project" href="projets/portfolio.html">
+                <div class="project-img-text">
+                    <div class="img-project" id="img-project2"></div>
+                    <div class="container-opacity-text" id="container-opacity-text2">
+                        <div class="opacity-project" id="opacity-project2"></div>
+                        <div class="text-project">
+                            <h3 class="title-project">Portfolio<span class="date-project"> - 2021</span></h3>
+                            <p class="info-project">Réalisation web</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="line-projects" data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
+            
+            <a class="link-project" href="projets/dc-start.html">
+                <div class="project-img-text">
+                    <div class="img-project" id="img-project13"></div>
+                    <div class="container-opacity-text" id="container-opacity-text13">
+                        <div class="opacity-project" id="opacity-project13"></div>
+                        <div class="text-project">
+                            <h3 class="title-project">DC Start<span class="date-project"> - 2022 / 2023</span></h3>
+                            <p class="info-project">Projet de fin d'étude</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="link-project" href="projets/hackthon-dc.html">
+                <div class="project-img-text">
+                    <div class="img-project" id="img-project15"></div>
+                    <div class="container-opacity-text" id="container-opacity-text15">
+                        <div class="opacity-project" id="opacity-project15"></div>
+                        <div class="text-project">
+                            <h3 class="title-project">Hackathon<span class="date-project"> - 2022</span></h3>
+                            <p class="info-project">Projet UX</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="link-project" href="projets/portfolio-video.html">
+                <div class="project-img-text">
+                    <div class="img-project" id="img-project6"></div>
+                    <div class="container-opacity-text" id="container-opacity-text6">
+                        <div class="opacity-project" id="opacity-project6"></div>
+                        <div class="text-project">
+                            <h3 class="title-project title-project-to-large">Portfolio vidéo<span class="date-project"> - 2022</span></h3>
+                            <p class="info-project">Motion design</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        </div>
+        <div class="container-link-project" data-aos="zoom-out" data-aos-duration="600" data-aos-delay="200">
+            <a href="MoreProjects.html">
+                <svg class="svg-more-projects" id="link-more-projects" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    
+    <div class="container-title" id="experiences" data-aos="fade-right" data-aos-duration="600" data-aos-delay="50">
+        <div class="circle-title"></div>
+        <h2 class="title-niv2">Mes expériences</h2>
+    </div>
+    <div class="container-experience">
+        <div class="column-experience">
+            
+            <a href="experiences/scriptor-artis.html">
+                <div id="experience0" data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
+                    <h3 class="title-experience">Graphiste UX/UI Junior – Scriptor Artis</h3>
+                    <p class="text-experience"><span class="labeur-bold">De mars 2022 à avril 2023</span>, pendant ma formation pour devenir Expert en stratégie digitale, j'ai réalisé mon alternance dans la Start-up Scriptor Artis, où j'y ai est travaillé en tant que graphiste et UX/UI designer junior sous une méthode de travail agile. 
+                            <svg class="link-experience svg-link" id="view-more0" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+
+                        <span class="text-link">Voir plus</span>
+                    </p>
+                </div>
+            </a>
+            
+            <a href="experiences/cameleoh.html">
+                <div id="experience1" data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
+                    <h3 class="title-experience">Webdesigner et développeur web - Cameleoh!</h3>
+                    <p class="text-experience"><span class="labeur-bold">De juillet 2021 à août 2022</span>, j’ai travaillé à temps partiel pour une chaine de restaurants naissante, « Cameleoh! », pour laquelle j’ai conçu et développé un site web. 
+                            <svg class="link-experience svg-link" id="view-more1" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+
+                        <span class="text-link">Voir plus</span>
+                    </p>
+                </div>
+            </a>
+            
+            <a href="experiences/viously.html">
+                <div id="experience2" data-aos="fade-right" data-aos-duration="600" data-aos-delay="200">
+                    <h3 class="title-experience">Développeur web - Viously</h3>
+                    <p class="text-experience"><span class="labeur-bold">D’avril à juin 2021</span>, durant ma 2éme année de DUT informatique, j’ai réalisé un stage de développement back-end dans la start-up Viously, sous la méthode de travail agile.   
+                            <svg class="link-experience svg-link" id="view-more2" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+
+                        <span class="text-link">Voir plus</span>
+                    </p>
+                </div>
+            </a>
+            
+            <a href="experiences/gren-fest.html">
+                <div id="experience3" data-aos="fade-right" data-aos-duration="600" data-aos-delay="200"> 
+                    <h3 class="title-experience">Bénévolat - festival Gren Fest</h3>
+                    <p class="text-experience"><span class="labeur-bold">En octobre 2019</span>, durant un weekend, j’ai participé à l’organisation et au bon déroulement d’un festival en tant que bénévole.
+                            <svg class="link-experience svg-link" id="view-more3" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+
+                        <span class="text-link">Voir plus</span>
+                    </p>
+                </div>
+            </a>
+
+        </div>
+        
+        <span class="vertical vertical-experience" data-aos="fade-down" data-aos-duration="600" data-aos-delay="200"></span>
+        
+        <div class="column-experience">
+            
+            <a href="experiences/poivre-rouge.html">
+                <div id="experience4" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+                    <h3 class="title-experience">Serveur - Poivre rouge </h3>
+                    <p class="text-experience"><span class="labeur-bold">En juillet et août 2018</span>, durant mes deux mois de vacances scolaires, j’ai décidé de travailler en restauration en tant que serveur et plongeur pour pouvoir payer mon permis de conduire.
+                            <svg class="link-experience svg-link" id="view-more4" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+
+                        <span class="text-link">Voir plus</span>
+                    </p>
+                </div>
+            </a>
+            
+            <a href="experiences/pairie.html">
+                <div id="experience5" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+                    <h3 class="title-experience">Vacataire - Pairie départementale d’Arras </h3>
+                    <p class="text-experience"><span class="labeur-bold">En août 2017</span>, durant mon deuxième mois de vacances scolaires, j’ai travaillé à la Paierie départementale d’Arras pour pouvoir me payer mon permis de conduire. 
+                            <svg class="link-experience svg-link" id="view-more5" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+
+                        <span class="text-link">Voir plus</span>
+                    </p>
+                </div>
+            </a>    
+                
+            <a href="experiences/Endelo.html">    
+                <div id="experience6" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+                    <h3 class="title-experience">Evènementiel - Endelo </h3>
+                    <p class="text-experience"><span class="labeur-bold">En juillet 2017</span>, durant mon premier mois de vacances scolaires, j’ai travaillé dans une agence d'événementiels pour en apprendre plus sur ce métier. 
+                            <svg class="link-experience svg-link" id="view-more6" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+
+                        <span class="text-link">Voir plus</span>
+                    </p> 
+                </div>
+            </a>
+            
+            <a href="experiences/clic.html">
+            <div id="experience7" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+                <h3 class="title-experience">Maintenance informatique - C.L.I.C </h3>
+                <p class="text-experience"><span class="labeur-bold">En décembre 2015</span>, durant mon année de 3éme, j’ai réalisé un stage de découverte dans une entreprise informatique. 
+                        <svg class="link-experience svg-link" id="view-more7" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    
+                    <span class="text-link">Voir plus</span>
+                </p>
+            </div>
+            </a>
+            
+            <!--
+            <div id="experience8" data-aos="fade-left" data-aos-duration="600" data-aos-delay="350">
+                <h3 class="title-experience">Lorem Ipsum is simply dummy is simply dummy</h3>
+                <p class="text-experience">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+                    <a href="#" class="svg-link">
+                        <svg class="link-experience" id="view-more8" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="9" y1="1" x2="9" y2="17" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="1" y1="9" x2="17" y2="9" stroke="#006678" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-link">Voir plus</a>
+                </p>
+            </div>
+            -->
+        </div>
+    </div>
+    
+    
+    <div class="container-contact" id='contact'>
+    
+        <div class="container-title" data-aos="fade-right" data-aos-duration="600" data-aos-delay="50">
+            <div class="circle-title"></div>
+            <h2 class="title-niv2">Me contacter</h2>
+        </div>
+        <div class="flex-contact">
+            <div class="contact-left" data-aos="zoom-out" data-aos-duration="600" data-aos-delay="200">
+                <a href="img/CV.pdf" target="_blank">
+                    <img class="cv" src="img/cv.png" alt="cv">
+                </a>
+            </div>
+            <div class="contact-right" data-aos="fade-right" data-aos-duration="600" data-aos-delay="400">
+                <a href="https://www.linkedin.com/in/victor-neuville/" class="link-contact" id="link-linkedin" target="_blank">
+                    <svg class="svg-contact" id="svg-linkedin" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M38.4 0H1.6C.715 0 0 .715 0 1.6v36.8c0 .885.715 1.6 1.6 1.6h36.8c.885 0 1.6-.715 1.6-1.6V1.6c0-.885-.715-1.6-1.6-1.6ZM11.865 34.085H5.93v-19.09h5.935v19.09ZM8.9 12.385a3.44 3.44 0 1 1 3.44-3.44 3.446 3.446 0 0 1-3.44 3.44Zm25.185 21.7h-5.93V24.8c0-2.215-.04-5.06-3.085-5.06-3.085 0-3.56 2.41-3.56 4.9v9.445h-5.925v-19.09h5.69v2.61h.08c.79-1.5 2.725-3.085 5.615-3.085 6.01 0 7.115 3.955 7.115 9.095v10.47Z" fill="#006678"/></svg>
+                    <p class="text-contact">Victor Neuville</p>
+                </a>
+                <a href="tel:+33605062418" class="link-contact" id="link-phone">
+                    <div class="container-svg-phone">
+                        <svg class="svg-contact" id="svg-phone" viewBox="0 0 25 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 2.5A2.5 2.5 0 0 1 22.5 5v30a2.5 2.5 0 0 1-2.5 2.5H5A2.5 2.5 0 0 1 2.5 35V5A2.5 2.5 0 0 1 5 2.5h15ZM5 0a5 5 0 0 0-5 5v30a5 5 0 0 0 5 5h15a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5H5Z" fill="#006678"/><path d="M12.5 35a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" fill="#006678"/></svg>
+                    </div>
+                    <p class="text-contact">+33 6-05-06-24-18</p>
+                    
+                </a>
+                <a href="mailto:victorneuville62@gmail.com" class="link-contact" id="link-mail">
+                    <svg class="svg-contact" id="svg-mail" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M39.011 17.64C39.011 7.24 31.127 0 19.793 0 8.05 0 0 8.126 0 19.99 0 32.234 7.835 40 20.2 40c3.022 0 5.92-.431 8.077-1.174v-3.022c-1.508.697-4.747 1.15-8.028 1.15-10.258 0-16.873-6.591-16.873-16.82 0-9.971 6.734-17.112 16.105-17.112 9.588 0 16.154 5.918 16.154 14.57 0 5.896-1.942 9.707-4.964 9.707-1.724 0-2.706-.982-2.706-2.665v-14.06h-3.618v2.923h-.386c-.932-2.086-3.088-3.38-5.609-3.38-4.908 0-8.336 4.074-8.336 9.897 0 6.09 3.355 10.188 8.34 10.188 2.804 0 4.96-1.368 5.991-3.811h.386c.284 2.349 2.464 4.024 5.269 4.024 5.51 0 9.01-4.96 9.01-12.77v-.004Zm-25.16 2.469c0-4.197 1.893-6.686 5.104-6.686 3.26 0 5.343 2.588 5.343 6.686s-2.107 6.71-5.392 6.71c-3.137 0-5.055-2.542-5.055-6.71Z" fill="#006678"/></svg>
+                    <p class="text-contact">victorneuville62@gmail.com</p>
+                </a>
+            </div>
+        </div>
+    </div>
+        
+        
+    <footer>
+        <div class="container-footer">
+            <p class="text-footer">2021 Victor Neuville © Tous droits réservés</p>
+        </div>
+    </footer>
+    
+    <script src="js/js-modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/js-scrollTo.js"></script>
+    <script src="js/js-scrolling-menu.js"></script>
+    <script src="js/js-appearanceScroll.js"></script>
+    <script src="js/js-circle-nav.js"></script>
+    <script src="js/js-hover-view-more.js"></script>
+    <script src="js/js-hover-contact.js"></script>
+    <script src="js/js-project.js"></script>
+    <div id="tripetto"></div>
+    <script src="https://cdn.jsdelivr.net/npm/tripetto-runner-foundation"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tripetto-runner-chat"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tripetto-services"></script>
+    <script>
+        var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiU2ExR3lmQWtLbDIzcTA3ZzBab2dRSTJpNWhFaENYeThRYk5oZWFNRlNDQT0iLCJkZWZpbml0aW9uIjoibVQ3eDlPRGM4WGlNcGRHajhEaHdXL21wYWlMMUkrbnRMZ0pPZmNHZkZpZz0iLCJ0eXBlIjoiY29sbGVjdCJ9.dLq1EAS0VLwvtuM5vsdPqSBhRhe0SNsiM96EACR_LyM" });
+
+        TripettoChat.run({
+            element: document.getElementById("tripetto"),
+            definition: tripetto.definition,
+            styles: tripetto.styles,
+            l10n: tripetto.l10n,
+            locale: tripetto.locale,
+            translations: tripetto.translations,
+            attachments: tripetto.attachments,
+            onSubmit: tripetto.onSubmit
+        });
+    </script>
+</body>
+</html>
+
+

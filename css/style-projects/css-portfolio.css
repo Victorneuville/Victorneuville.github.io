@@ -1,0 +1,16 @@
+#img-project1{
+    background-image: url(../../img/projets/porfolio/arbre.png);
+    background-size: cover;
+}
+#img-project2{
+    background-image: url(../../img/projets/porfolio/charte-graphique.png);
+    background-size: cover;
+}
+#img-project3{
+    background-image: url(../../img/projets/porfolio/expo-maquette.png);
+    background-size: cover;
+}
+#img-project4{
+    background-image: url(../../img/projets/porfolio/maquette-projet.png);
+    background-size: cover;
+}

@@ -1,0 +1,16 @@
+#img-project1{
+    background-image: url(../../img/projets/affiche/Route.png);
+    background-size: cover;
+}
+#img-project2{
+    background-image: url(../../img/projets/affiche/projet1.png);
+    background-size: cover;
+}
+#img-project3{
+    background-image: url(../../img/projets/affiche/projet2.png);
+    background-size: cover;
+}
+#img-project4{
+    background-image: url(../../img/projets/affiche/calques.png);
+    background-size: cover;
+}

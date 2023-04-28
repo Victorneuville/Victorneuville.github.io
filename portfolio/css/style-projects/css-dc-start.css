@@ -1,0 +1,20 @@
+#img-project2{
+    background-image: url(../../img/projets/dc-start/Persona.png);
+    background-size: cover;
+}
+#img-project3{
+    background-image: url(../../img/projets/dc-start/Mapping-concurrents.png);
+    background-size: cover;
+}
+#img-project5{
+    background-image: url(../../img/projets/dc-start/Extraction-data.png);
+    background-size: cover;
+}
+#img-project4{
+    background-image: url(../../img/projets/dc-start/Questions-quantitatives.png);
+    background-size: cover;
+}
+#img-project1{
+    background-image: url(../../img/projets/dc-start/protocole-questionnaire-qualitatif.png);
+    background-size: cover;
+}

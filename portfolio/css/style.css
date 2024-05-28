@@ -656,8 +656,8 @@ a {
     border-left-style: solid;
     border-left-color: #474747;
     border-radius: 0.1vw;
-    margin-left: clamp(4px, 2%, 80px);
-    margin-right: clamp(4px, 2%, 80px);
+    margin-left: clamp(10px, 4%, 200px);
+    margin-right: clamp(10px, 4%, 200px);
 }
 
 .arrow-progress{
@@ -685,7 +685,7 @@ a {
 .skill-niv2{
     width: 80%;
     margin: auto;
-    padding-top: clamp(0.5em, 0.65vw, 3.5em);
+    padding-top: clamp(1em, 1.3vw, 7em);
     display: flex;
 }
 .title-main{
@@ -839,9 +839,13 @@ a {
 }
 .svg-more-projects{
     width: clamp(1.6em, 2.4vw, 13.2em);
+    border-radius: 100%;
+    background-color: #D2C0B1;
+    padding: clamp(0.2em, 0.5vw, 1.2em);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .container-link-project{
-    margin-top: clamp(0.8em, 1.2vw, 6.6em);
+    margin-top: clamp(0.2em, 0.3vw, 1.6em);
     text-align: center;
 }
 
@@ -1090,7 +1094,7 @@ a {
     .text-experience{
         font-size: clamp(0.8em, 1.2vw, 6.6em);
         padding-left: clamp(0.8em, 1.2vw, 6.6em);
-        padding-bottom: clamp(0.464em, 0.7vw, 3.828em);;
+        padding-bottom: clamp(0.6em, 1vw, 5em);;
         padding-top: clamp(0.4em, 0.6vw, 3.3em);;
         color: #474747;
         margin: 0;
@@ -1123,7 +1127,7 @@ a {
     .text-experience{
         font-size: clamp(0.8em, 1.2vw, 6.6em);
         padding-left: clamp(0.8em, 1.2vw, 6.6em);
-        padding-bottom: clamp(0.464em, 0.7vw, 3.828em);;
+        padding-bottom: clamp(0.6em, 1vw, 5em);;
         padding-top: clamp(0.4em, 0.6vw, 3.3em);;
         color: #474747;
         margin: 0;
@@ -1162,7 +1166,7 @@ a {
     .text-experience{
         font-size: clamp(0.8em, 1.2vw, 6.6em);
         padding-left: clamp(0.8em, 1.2vw, 6.6em);
-        padding-bottom: clamp(0.8em, 1.2vw, 6.6em);;
+        padding-bottom: clamp(1.2em, 2vw, 10em);;
         padding-top: clamp(0.4em, 0.6vw, 3.3em);;
         color: #474747;
         margin: 0;

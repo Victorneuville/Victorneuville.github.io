@@ -704,6 +704,11 @@ a {
     margin-bottom: clamp(20px, 5%, 500px);
     border-radius: clamp(15px, 1vw, 375px);
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.container-main-skill:hover{
+    filter: brightness(85%);
 }
 
 .main-skill{
@@ -714,7 +719,6 @@ a {
     align-items: center;
     margin: 0;
     padding: 0;
-    cursor: pointer;
 }
 
 .container-skill{
